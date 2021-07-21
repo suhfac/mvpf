@@ -1,0 +1,118 @@
+ /* 포트폴리오용 css */
+
+ *{
+     padding: 0;
+     list-style: none;
+     margin: 0 auto;
+ }
+
+ a{ 
+     text-decoration: none;
+     color:inherit;
+}
+
+
+@font-face {
+    font-family: 'yg-jalnan';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_four@1.2/JalnanOTF00.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+#wrap { width: 44%;  background-color: #fff;}
+
+.pf-title { width: 100%; height: 150px; padding-top: 100px;   }
+.pf-title h1{ font-family: 'yg-jalnan'; font-size: 48px;  }
+
+        
+.pf-Synopsis { width: 100%; height: 80px;}    
+
+.pf-media { width: 100%; height: 460px;  text-align: center; overflow: hidden;}
+    .pf-media img{ width: 100%;}  
+
+.pf-thumbimg { width: 100%; height:90px; margin-top: 12px; }
+.pf-thumbimg img {  width: 19%; margin: 0; }
+
+.pf-subs { width: 100%; height: 180px; }
+
+.pf-spec { width: 100%; height: 280px; }
+ 
+.subject {  width: 70px; height: 30px; padding-right: 10px;  font-weight: 600; text-align: right;}
+.ri{  width: 500px; }
+table{ width: 100%;}
+.youtubebtn { width: 240px; height: 50px; margin-bottom: 120px; 
+    border: 1px solid #e10; line-height: 50px; float: left; 
+    text-align: center;}
+.youtubebtn:hover{ background-color: #e10; color: #fff; }
+
+
+ /* 미디어 쿼리 */
+
+
+ @media all and (max-width:3600px){
+    #wrap {
+        width: 44%;
+    }
+}
+
+ @media all and (max-width:1920px){
+    #wrap {
+        width: 44%;
+    }
+}
+
+ @media all and (max-width:1600px){
+     #wrap {
+        width: 60%;
+     }
+ }
+ @media all and (max-width:1366px){
+     #wrap {
+        width: 65%;
+     }
+ }
+
+ @media all and (max-width:1280px){
+    #wrap {
+       width: 70%;
+    }
+}
+
+
+@media all and (max-width:1024px){
+     #wrap {
+        width: 80%;
+     }
+     .pf-media iframe{ width: 560px; height: 315px; }
+ }
+
+ @media all and (max-width:768px){
+    #wrap {        
+        width: 90%;
+    }
+    
+     .pf-media { height: 230px;}
+    .pf-media iframe{ width: 480px; height: 270px; }
+}
+
+@media all and (max-width:414px){
+    #wrap {
+        width: 95%;
+    }
+    .pf-subs{ padding-bottom: 100px; height: 320px; }
+    .pf-media { height: 220px; }
+    
+    .pf-media iframe{ width: 360px; height: 202.5px; }
+}
+
+@media all and (max-width:360px){
+    *{ margin: 0;}
+    #wrap {
+        width: 100%;
+    }
+    .pf-media { overflow: hidden;}
+    
+    .pf-media iframe{ width: 256px; height: 144px; }
+}
+

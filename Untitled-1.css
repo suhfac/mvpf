@@ -1,0 +1,24 @@
+
+/* 포트폴리오 */
+*{
+margin: 0 auto;
+padding: 0;
+list-style: none;
+}
+
+a{ 
+    text-decoration: none;
+    color:inherit;
+}
+
+.wrap {width: 38%; background-color: blanchedalmond;}
+
+.pf-title{width: 100%; height: 240px; background-color: cadetblue;}
+.pf-synopsis{width: 100%; height: 240px; background-color: rgb(253, 255, 255);}
+.pf-media{width: 100%; height: 400px; background-color: rgb(3, 48, 49); text-align: center;}
+.pf-thumbing{width: 100%; height: 240px; background-color: rgb(162, 248, 3);}
+.pf-thumbing img{width: 19%;}
+.pf-subs{width: 100%; height: 240px; background-color: rgb(160, 95, 114);}
+.subject{font-weight: 600;}
+.pf-spec{width: 100%; height: 240px; background-color: rgb(0, 247, 255);}
+.pf-youtubebtn{width: 100%; height: 240px; background-color: rgb(201, 105, 26);}
